@@ -7,6 +7,7 @@ require('config.nvim-cmp')
 require('config.autopairs')
 require('config.toggleterm')
 require('config.fzf')
+require('config.lazygit')
 vim.opt.number = true
 vim.opt.relativenumber = false
 

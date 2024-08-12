@@ -21,6 +21,7 @@ vim.cmd [[
   Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
+  Plug 'kdheepak/lazygit.nvim'
   call plug#end()
 
 ]]
