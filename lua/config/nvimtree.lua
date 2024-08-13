@@ -30,7 +30,7 @@ require("nvim-tree").setup({
     api.config.mappings.default_on_attach(bufnr)
 
     -- Custom mapping
-    vim.keymap.set('n', '<C-e>', function()
+    vim.keymap.set('n', '<C-CR>', function()
         local node = api.tree.get_node_under_cursor()
         if node then
             local path = node.absolute_path
