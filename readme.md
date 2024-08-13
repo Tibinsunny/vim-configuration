@@ -14,7 +14,7 @@ This is a Neovim configuration setup with several plugins and custom key mapping
 ### Nvim Tree
 
 - **Open File in Existing or New Tab:**
-  - Normal Mode: `<C-e>` - Opens the file under the cursor in an existing tab if it exists or creates a new tab.
+  - Normal Mode: `<C-CR>` - Opens the file under the cursor in an existing tab if it exists or creates a new tab.
 
 ### nvim-cmp
 
